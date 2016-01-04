@@ -16,4 +16,11 @@
 hello <- function() {
   print("Hello, world!")
 }
-
+install.packages("dplyr")
+devtools::use_package("dplyr") # Defaults to imports
+#> Adding dplyr to Imports
+#> Refer to functions with dplyr::fun()
+devtools::use_package("dplyr", "Suggests")
+#> Adding dplyr to Suggests
+#> Use requireNamespace("dplyr", quietly = TRUE) to test if package is
+#> installed, then use dplyr::fun() to refer to functio
