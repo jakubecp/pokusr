@@ -1,9 +1,10 @@
 Package: pokusr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Fisr attempt to build a package from a scratch
 Version: 0.1
 Date: 2015-12-25
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: person("Pavel", "Jakubec", email = "jakubecp@fzp.czu.cz", role = c("aut", "cre"))
+Description: I still have no idea what this will be about and what it will do,
+but I am sure that it will be great.
+License: The “GNU General Public License” version 3
 LazyData: TRUE

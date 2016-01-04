@@ -1,0 +1,11 @@
+setwd ("C:/Users/jakubecp/Documents/pokusr")
+dir.create ("src")
+dir.create ("tests")
+dir.create ("vignettes")
+dir.create ("inst")
+setwd ("C:/Users/jakubecp/Documents/pokusr/inst")
+dir.create ("templates")
+setwd ("C:/Users/jakubecp/Documents/pokusr")
+dir.create ("R")
+dir.create ("man")
+
