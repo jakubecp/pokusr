@@ -1,12 +1,14 @@
 Package: pokusr
 Type: Package
 Title: Fisr attempt to build a package from a scratch
-Version: 0.0.1
+Version: 0.0.0.9000
 Date: 2015-12-25
 Authors@R: person("Pavel", "Jakubec", email = "jakubecp@fzp.czu.cz", role = c("aut", "cre"))
 Description: I still have no idea what this will be about and what it will do,
     but I am sure that it will be great.
-License: The “GNU General Public License” version 3
+License: file LICENSE
 LazyData: TRUE
-Imports: dplyr
-Suggests: dplyr
+Imports:
+Suggests:
+Collate: dir_structure.R, hello.R
+RoxygenNote: 5.0.1

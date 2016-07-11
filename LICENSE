@@ -1,0 +1,10 @@
+Name: GNU General Public License
+Abbrev: GPL
+Version: 3
+SSS: GPL-3
+OSI: open (https://opensource.org/licenses/gpl-license)
+FSF: free_and_GPLv3_compatible (https://www.gnu.org/licenses/license-list.html#GNUGPL)
+File: share/licenses/GPL-3
+URL: https://www.r-project.org/Licenses/GPL-3
+FOSS: yes
+Extensible: yes
