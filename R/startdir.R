@@ -2,18 +2,11 @@
 
 startdir <- function (type=c("package", "analysis")) {
   if (type=="package") {
-    dir.create ("src")
-    dir.create ("tests")
-    dir.create ("vignettes")
-    dir.create ("inst")
-    dir.create ("inst/templates")
-    dir.create ("R")
-    dir.create ("man")
+    package <- c("src","tests", "vignettes","inst", "inst/templates", "R", "man")
+    sapply (package, dir.create)
   } else if (type== "analysis") {
-    dir.create ("articl")
-    dir.create ("data")
-    dir.create ("exports")
-    dir.create ("R")
+    analysis <- c("articl","data", "exports","Ra")
+    sapply (analysis, dir.create)
   } else {
     print ("ERROR")
   }
