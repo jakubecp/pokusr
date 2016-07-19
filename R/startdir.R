@@ -1,5 +1,11 @@
 #function for creating appropriate dir structure once you have created the project
 
+#' Generate apropriate directory structure inside of project folder.
+#'
+#' @param "package" or "analysis".
+#' @return The apropriate directory structure eather \code{"package"} or \code{"analysis"}.
+#' @examples
+#' startdir("package")
 startdir <- function (type=c("package", "analysis")) {
   if (type=="package") {
     package <- c("src","tests", "vignettes","inst", "inst/templates", "man")
@@ -12,4 +18,3 @@ startdir <- function (type=c("package", "analysis")) {
   }
 
 }
-

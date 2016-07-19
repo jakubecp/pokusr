@@ -1,12 +1,12 @@
-\name{hello}
-\alias{hello}
-\title{Hello, World!}
+\name{startdir}
+\alias{startdir}
+\title{New package!}
 \usage{
-hello()
+startdir("package")
 }
 \description{
-Prints 'Hello, world!'.
+Creates dir structure.
 }
 \examples{
-hello()
+startdir("package")
 }
