@@ -5,6 +5,7 @@
 #' @param "package" or "analysis".
 #' @return delete directory structure eather in format \code{"package"} or \code{"analysis"}.
 #' @examples
+#' library(pokusr)
 #' undir("package")
 undir <- function (type=c("package", "analysis")) {
   if (type == "package") {

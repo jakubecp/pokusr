@@ -5,6 +5,7 @@
 #' @param "package" or "analysis".
 #' @return The apropriate directory structure eather \code{"package"} or \code{"analysis"}.
 #' @examples
+#' library(pokusr)
 #' startdir("package")
 startdir <- function (type=c("package", "analysis")) {
   if (type=="package") {
@@ -18,3 +19,4 @@ startdir <- function (type=c("package", "analysis")) {
   }
 
 }
+
