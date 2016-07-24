@@ -1,9 +1,11 @@
 #function for creating appropriate dir structure once you have created the project
 
-#' Generate apropriate directory structure inside of project folder.
+#' Generate apropriate directory structure inside of project folder. Which folders will be generated is govern by parameters: "package" and "analysis".
+#'
 #'
 #' @param "package" or "analysis".
 #' @return The apropriate directory structure eather \code{"package"} or \code{"analysis"}.
+#' @seealso (\code{\link{undir}})
 #' @examples
 #' startdir("package")
 startdir <- function (type=c("package", "analysis")) {
