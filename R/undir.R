@@ -6,6 +6,7 @@
 #' @return delete directory structure eather in format \code{"package"} or \code{"analysis"}.
 #' @seealso (\code{\link{startdir}})
 #' @examples
+#' library(pokusr)
 #' undir("package")
 undir <- function (type=c("package", "analysis")) {
   if (type == "package") {

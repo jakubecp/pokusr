@@ -7,6 +7,7 @@
 #' @return The apropriate directory structure eather \code{"package"} or \code{"analysis"}.
 #' @seealso (\code{\link{undir}})
 #' @examples
+#' library(pokusr)
 #' startdir("package")
 startdir <- function (type=c("package", "analysis")) {
   if (type=="package") {
@@ -20,3 +21,4 @@ startdir <- function (type=c("package", "analysis")) {
   }
 
 }
+
